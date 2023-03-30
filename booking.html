@@ -1,0 +1,71 @@
+<!DOCTYPEhtml>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Book Adventure</title>
+<link rel="stylesheet" href="fonts/fonts.css" type="text/css">
+<link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body id="container">
+  <nav class="main-nav">
+    <ul class="tab">
+      <li class="logo"><a href="index.html"><img src="images/logo.png"></a></li>
+      <li><a class="tab1" href="offerings.html">Offerings</a>
+        <ul class="nest">
+          <li class="nest1"><a href="skydiving.html">Sky Diving</a></li>
+          <li class="nest2"><a href="zipline.html">Zip Line</a></li>
+          <li class="nest3"><a href="balloon.html">Ballon Ride</a></li>
+          <li class="nest4"><a href="ridealong.html">Ride-Along</a></li>
+          <li class="nest5"><a href="lowgravity.html">Low Gravity</a></li>
+          <li class="nest6"><a href="pilotsim.html">Pilot Sim</a></li>
+        </ul>
+      </li>
+      <li><a class="tab tab2" href="booking.html">Book Adventure</a>
+        <ul class="nest">
+          <li class="nest1"><a href="skydiving.html">Sky Diving</a></li>
+          <li class="nest2"><a href="zipline.html">Zip Line</a></li>
+          <li class="nest3"><a href="balloon.html">Ballon Ride</a></li>
+          <li class="nest4"><a href="ridealong.html">Ride-Along</a></li>
+          <li class="nest5"><a href="lowgravity.html">Low Gravity</a></li>
+          <li class="nest6"><a href="pilotsim.html">Pilot Sim</a></li>
+        </ul>
+      </li>
+      <li><a class="tab tab3" href="details.html">Adventure Details</a>
+        <ul class="nest">
+          <li class="nest1"><a href="skydiving.html">Sky Diving</a></li>
+          <li class="nest2"><a href="zipline.html">Zip Line</a></li>
+          <li class="nest3"><a href="balloon.html">Ballon Ride</a></li>
+          <li class="nest4"><a href="ridealong.html">Ride-Along</a></li>
+          <li class="nest5"><a href="lowgravity.html">Low Gravity</a></li>
+          <li class="nest6"><a href="pilotsim.html">Pilot Sim</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+   <figure class="hero">
+    <img class="glider" src="images/hang-glider.jpg" width="100%">
+     <figcaption class="glideText">
+       <h1>Book your adventure today.</h1>
+     </figcaption>
+   </figure>
+         <form class="bookit" action="index.html" method="post">
+           <legend><strong>Adventure Awaits!</strong></legend>
+           <ol>
+             <li class="formli"><label class="label-form" for="firstlast">Name:</label><input class="adventure" type="text" name="fullname" id="firstname"></li>
+             <li class="formli"><label class="label-form" for="email">email:</label><input class="adventure" type="text" name="email" id="email"></li>
+             <li class="formli"><label class="label-form" for="phone">Phone:</label><input class="adventure" type="text" name="phone" id="phone"></li>
+             <li class="formli"><label class="label-form" for="adventure">Adventure:</label><select class="adventure">
+               <option value="Skydiving">Skydiving</option>
+               <option value="Zip Line">Zip Line</option>
+               <option value="Balloon Ride">Balloon Ride</option>
+               <option value="Ride-Along">Ride-Along</option>
+               <option value="Low Gravity">Low Gravity</option>
+               <option value="Pilot Sim">Pilot Sim</option>
+             </select></li>
+             <li class="formli"><label class="label-form" for="date">Date:</label><input class="adventure" type="text" name="date" id="date"></li>
+           </ol>
+            <p class="form-p"> <input type="submit" name="booking" value="Book My Adventure"> <input type="reset"> </p>
+         </form>
+</body>
+</html>

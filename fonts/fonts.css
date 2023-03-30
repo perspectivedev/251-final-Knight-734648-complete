@@ -1,0 +1,41 @@
+@font-face {
+	font-family: 'MarckScript';
+	src: url('MarckScript-Regular.eot');
+	/* IE9 Compat Modes */
+	src: url('MarckScript-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('MarckScript-Regular.woff') format('woff'), /* Modern Browsers */
+	url('MarckScript-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('MarckScript-Regular.svg#MarckScript-Regular') format('svg');
+	/* Legacy iOS */
+	font-style: normal;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+}
+
+@font-face {
+	font-family: 'LatoLight';
+	src: url('Lato-LightItalic.eot');
+	/* IE9 Compat Modes */
+	src: url('Lato-LightItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('Lato-LightItalic.woff') format('woff'), /* Modern Browsers */
+	url('Lato-LightItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('Lato-LightItalic.svg#Lato-LightItalic') format('svg');
+	/* Legacy iOS */
+	font-style: italic;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+}
+
+@font-face {
+	font-family: 'LatoLight';
+	src: url('Lato-Light.eot');
+	/* IE9 Compat Modes */
+	src: url('Lato-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('Lato-Light.woff') format('woff'), /* Modern Browsers */
+	url('Lato-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('Lato-Light.svg#Lato-Light') format('svg');
+	/* Legacy iOS */
+	font-style: normal;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+}

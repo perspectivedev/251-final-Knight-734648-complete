@@ -1,0 +1,324 @@
+@import "fonts/fonts.css";
+
+html {
+  background: #8eb6df;
+  box-sizing: border-box;
+  display: flex;
+}
+* {
+  box-sizing: inherit;
+}
+
+/* clearfix doc */
+
+html, body, header, nav, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* anchor styling */
+
+    nav ul li:nth-child(1n+2) a {
+      background: #ffa500;
+      border-radius: .5em .5em 0 0;
+      font-family: LatoLight;
+      font-size: 1em;
+      /* margin-right: .5em; */
+      padding: .5em 1em;;
+    }
+
+    .logo {
+      display: flex;
+      padding: 1em 3em 1em 4em;
+    }
+
+/* 1st level of nav */
+
+    .main-nav {
+      background: linear-gradient(to bottom, #000143, #010156);
+      border-bottom: .5em solid #ffa500;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      padding-right: 2em;
+    }
+    nav ul {
+      align-items: flex-end;
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      width: 100%;
+    }
+
+    nav ul li {
+      align-items: flex-end;
+      display: flex;
+    }
+
+    nav ul li a {
+      color: #fff;
+      display: flex;
+      font-family: LatoLight;
+      text-decoration: none;
+    }
+    nav ul li:hover a{
+      color: blue;
+      text-decoration: underline;
+    }
+
+/* 2nd level of nav */
+
+    nav ul li ul {
+      display: none;
+    }
+
+    nav ul li:hover ul {
+      /* margin-top: 200px; */
+      align-items: flex-end;
+      background: #ffa500;
+      display: flex;
+      justify-content: space-between;
+      top: 110px;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      z-index: 1;
+    }
+
+/* body */
+
+#container {
+  display: block;
+  width: 900px;
+  margin: 1em auto 2em;
+  background: #fff;
+  position: relative;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+}
+#container.dbody {
+  box-sizing: border-box;
+  background-image: url(images/helicopter.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 117px;
+ }
+
+.hero {
+  display: block;
+  margin: 0;
+  position: relative;
+}
+
+.heroImg {
+  display: block;
+  height: auto;
+  max-height:400px;
+  margin: 0;
+  width: 100%;
+  position: relative;
+}
+
+.balloonHeroImg {
+  display: block;
+  height: auto;
+  max-height: 400px;
+  margin: 0;
+  width: 100%;
+  position: relative;
+  object-fit: cover;
+  object-position: center 55%;
+}
+
+.jet {
+  display: block;
+  height: auto;
+  margin: 0;
+  max-width: 100%;
+  position: relative;
+}
+
+.lowGHeroImg {
+    display: block;
+      height: auto;
+      max-height: 400px;
+      margin: 0;
+      width: 100%;
+      position: relative;
+      object-fit: cover;
+      object-position: center 24%;
+}
+
+/* h1 styling */
+
+    .heroText {
+  color: #fff;
+  display: block;
+  font-family: MarckScript;
+  font-size: 2em;
+  left: 2em;
+  position: absolute;
+  top: 2em;
+}
+.jetText {
+  bottom: 2em;
+  color: #fff;
+  display: block;
+  font-family: MarckScript;
+  font-size: 2em;
+  left: 2em;
+  position: absolute;
+}
+
+/* p styling */
+
+.link1 {
+  color: red;
+  text-decoration: underline;
+}
+.text {
+  margin: 0;
+  padding: 2em 4em 1em 4em;
+}
+
+/*  offering styling */
+
+img {
+  left: 0;
+}
+
+/* details styling */
+
+table {
+position: relative;
+color: #fff;
+font-family: LatoLight;
+margin: 3em;
+padding: 3em;
+border-collapse: collapse;
+}
+
+caption {
+  background: #ffa500;
+  background-size: 75%;
+  margin: 2em 15em;
+  padding: 2em 2em;
+}
+
+caption, thead {
+  font-size: 1em;
+  text-shadow: #999;
+}
+
+td, th, tr {
+  border-bottom: .1em solid #ffa500;
+}
+
+tfoot {
+  padding: 0 2em;
+}
+
+/* figure and figcap */
+.glider {
+  display: block;
+  height: auto;
+  margin: 0;
+  max-width: 100%;
+  position: relative;
+}
+.glideText, .rideText, .balloonText {
+  bottom: 2em;
+  color: #fff;
+  display: block;
+  font-family: MarckScript;
+  font-size: 1.5em;
+  left: 2em;
+  position: absolute;
+  left: 7%;
+  top: 0%;
+  text-shadow: #999;
+  height: 150px;
+}
+
+/* pilot sim */
+.pilotText {
+    bottom: .2em;
+    color: #fff;
+    display: block;
+    font-family: MarckScript;
+    font-size: 2em;
+    left: 2em;
+    position: absolute;
+}
+.lowText, .skyText {
+  color: #fff;
+  display: block;
+  font-family: MarckScript;
+  font-size: 2em;
+  left: 2em;
+  position: absolute;
+  top: -1.5em;
+}
+/* form */
+
+.bookit {
+  background: #4e7cbf;
+  border: .2em solid #ffdf6e;
+  left: 28%;
+  max-width: 400px;
+  position: relative;
+  padding: 2em;
+  margin: 1em 0;
+  font-family: LatoLight;
+  box-sizing: border-box;
+  height: 400px;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+legend {
+  align-items: center;
+  color: #fff;
+  font-family: LatoLight;
+  left: 25%;
+  padding: 2em 5em;
+}
+
+.label-form {
+  color: #fff;
+  font-family: LatoLight;
+  box-sizing: border-box;
+  position: absolute;
+  left: 20%;
+  margin: .1em .1em 0 .1em;
+  padding: .5em .5em;
+}
+
+ol,
+.formli {
+  list-style: none;
+  text-decoration: none;
+  text-align: right;
+}
+
+.adventure {
+  box-sizing: border-box;
+  align-items: start;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 35%;
+  width: 150px;
+  margin: .5em;
+  padding: .5em;
+  z-index: 1;
+}
+
+.form-p {
+  align-items: center;
+  color: #fff;
+  font-family: LatoLight;
+  padding: .5em 4em;
+  position: calc(center);
+}
